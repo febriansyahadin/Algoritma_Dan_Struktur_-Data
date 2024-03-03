@@ -10,7 +10,7 @@ public static void main(String[] args) {
         System.out.println("Segitiga ke-" + i);
         System.out.println("Luas Segitiga: " + ppArray[i].hitungLuas() );
         System.out.println("Keliling Segitiga : " + ppArray[i].hitungKeliling());
-        System.out.println();
+
     }
 }
 }

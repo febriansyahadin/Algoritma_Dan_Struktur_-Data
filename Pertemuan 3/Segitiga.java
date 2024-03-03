@@ -7,12 +7,12 @@ public class Segitiga {
         tinggi = t;
     }
 
-    public int hitungLuas() {
-        return alas * tinggi / 2;
+    public double hitungLuas() {
+        return 0.5 * alas * tinggi;
     }
 
-    public int hitungKeliling() {
-        int sisiMiring = (int) Math.sqrt(alas * alas + tinggi * tinggi);
+    public double hitungKeliling() {
+        double sisiMiring = Math.sqrt(alas*alas + tinggi*tinggi);
         return alas + tinggi + sisiMiring;
     }
 }

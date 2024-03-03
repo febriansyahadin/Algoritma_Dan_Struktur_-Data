@@ -1,17 +1,10 @@
+Nama : Febriansyah Adi N
 
+Kelas : T1 1H / 11
 
+Nim 2341720023
 
-
-
-
-
-
-
-
-
-
-
-
+## Pertemuan 3
 ## Percobaan 1 : Membuat Array dari object, Mengisi dan Menampilkan
 <img src = "Screenshot 2024-02-26 103341.png">
 
@@ -56,6 +49,8 @@ konstruktur pada baris program berikut :
 
 2. Jika jawaban soal no satu iya, berikan contohnya! Jika tidak, jelaskan!
 
+    ![alt text](image-14.png)
+
 3. Jika diketahui terdapat class Persegi yang memiliki atribut sisi bertipe integer, maka kode 
 dibawah ini akan memunculkan error saat dijalankan. Mengapa?
 
@@ -74,6 +69,8 @@ pada ppArray[i] sekaligus ppArray[0]?Jelaskan !
 
 ## 3.4 Percobaan 3: Penambahan Operasi Matematika di Dalam Method
 
+<img src= "image-15.png">
+
 ## 3.4.3 Pertanyaan
 1. Dapatkah konstruktor berjumlah lebih dalam satu kelas? Jelaskan dengan contoh!
 <img src = "image-9.png">
@@ -87,11 +84,13 @@ pada ppArray[i] sekaligus ppArray[0]?Jelaskan !
     Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t
     yang masing-masing digunakan untuk mengisikan atribut alas dan tinggi.
 
-    
+    <img src= "image-10.png">  
 
 3. Tambahkan method hitungLuas() dan hitungKeliling() pada class Segitiga
 tersebut. Asumsi segitiga adalah segitiga siku-siku. (Hint: Anda dapat menggunakan bantuan 
 library Math pada Java untuk mengkalkulasi sisi miring)
+
+    <img src="image-11.png">
 
 4. Pada fungsi main, buat array Segitiga sgArray yang berisi 4 elemen, isikan masing-masing 
 atributnya sebagai berikut:
@@ -100,14 +99,16 @@ sgArray ke-1 alas: 20, tinggi: 10
 sgArray ke-2 alas: 15, tinggi: 6
 sgArray ke-3 alas: 25, tinggi: 10
 
+    <img src = "image-12.png">
+
 5. Kemudian menggunakan looping, cetak luas dan keliling dengan cara memanggil method
 hitungLuas() dan hitungKeliling()
 
+    <img src = "image-13.png">
+
 ## 3.5 Latihan Praktikum
 
-1. Buatlah program yang dapat menghitung luas permukaan dan volume bangun ruang kerucut, 
-limas segi empat sama sisi, dan bola. Buatlah 3 (tiga) class sesuai dengan jumlah jenis bangun 
-ruang. Buatlah satu main class untuk membuat array of objects yang menginputkan atribut atribut yang ada menggunakan konstruktor semua bangun ruang tersebut. Dengan ketentuan,
+1. Buatlah program yang dapat menghitung luas permukaan dan volume bangun ruang kerucut, limas segi empat sama sisi, dan bola. Buatlah 3 (tiga) class sesuai dengan jumlah jenis bangun ruang. Buatlah satu main class untuk membuat array of objects yang menginputkan atribut atribut yang ada menggunakan konstruktor semua bangun ruang tersebut. Dengan ketentuan,
 
 a. Buat looping untuk menginputkan masing-masing atributnya, kemudian tampilkan 
 luas permukaan dan volume dari tiap jenis bangun ruang tersebut.
@@ -159,3 +160,18 @@ Nilai IPK : 3.8
 3. Modifikasi program Latihan no.2 di atas, sehingga bisa digunakan untuk menghitung rata-rata IPK, 
 serta menampilkan data mahasiswa dengan IPK terbesar! (gunakan method untuk masing-masing 
 proses tersebut)
+
+## jawaban
+1. Output
+    
+<img src ="image-16.png">
+
+<img src = "image-17.png">
+
+2.Output
+
+<img src = "image-18.png">
+
+3.Output
+
+<img src = "image-20.png">
