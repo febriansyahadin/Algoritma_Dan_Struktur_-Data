@@ -1,4 +1,4 @@
-package pertemuan6.bubbleSelectioInsertion;
+package jobsheet6.bubbleSelectioInsertion;
 
 public class HotelService {
     Hotel listHotel[] = new Hotel[5];

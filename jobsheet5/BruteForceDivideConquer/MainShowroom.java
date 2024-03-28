@@ -1,4 +1,4 @@
-package pertemuan5.BruteForceDivideConquer;
+package jobsheet5.BruteForceDivideConquer;
 
 public class MainShowroom {
     public static void main(String[] args) {
