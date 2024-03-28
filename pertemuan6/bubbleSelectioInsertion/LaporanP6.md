@@ -9,6 +9,7 @@
 2. Di dalam method bubbleSort(), terdapat baris program seperti di bawah ini:
 
 <img src ="image-2.png">
+
 untuk apakah proses tersebut?
 
 kondisi if(listMhs[j].ipk > list.Mhs[j-1].ipk) untuk mengecek apakah nilai  ipk pada j lebih besar dari ipk pada j-1
@@ -37,6 +38,7 @@ akan dilakukan 49 kali (dari 0 hingga 48, karena syaratnya adalah i < listMhs.le
 ## 5.3.3 Pertayaan 
 1. Di dalam method selection sort, terdapat baris program seperti di bawah ini:
 <img src ="image-5.png">
+
 untuk apakah proses tersebut,jelaskan!
 
 idxmin untuk menyimpan nilai indeks dari elemen yang di temukan setiap iterasi pada proses inisialisasi j=i+1 dimulai dari elemen berikut nya setelah i sampai akhir array
@@ -45,7 +47,17 @@ pada if jika nilai ipk mahasiswa indek j lebih kecil dari nilai IPK dari mahasis
 
 ## 5.4 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
 ## 5.4.2 Verifikasi Hasil Percobaan 
+<img src = "image-6.png">
 
 ## 5.4.3 Pertayaan
+1. Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
 
+<img src = "image-7.png">
 
+## 5.5 Latihan Praktikum 
+## verifikasi Hasil Percobaan
+<img src="image-8.png">
+
+<img src ="image-9.png">
+
+<img src="image-10.png">
