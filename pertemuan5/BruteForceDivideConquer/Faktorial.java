@@ -1,4 +1,4 @@
-package jobsheet5.BruteForceDivideConquer;
+package jobsheet4.BruteForceDivideConquer;
 
 /**
  * Faktorial

@@ -1,4 +1,4 @@
-package jobsheet5.BruteForceDivideConquer;
+package pertemuan5.BruteForceDivideConquer;
 import java.util.Scanner;
 
 public class MainPangkat {

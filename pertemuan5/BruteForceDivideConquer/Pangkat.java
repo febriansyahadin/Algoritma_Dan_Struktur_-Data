@@ -1,4 +1,4 @@
-package jobsheet5.BruteForceDivideConquer;
+package pertemuan5.BruteForceDivideConquer;
 
 public class Pangkat {
     public int nilai,pangkat;

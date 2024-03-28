@@ -1,4 +1,4 @@
-package jobsheet5.BruteForceDivideConquer;
+package pertemuan5.BruteForceDivideConquer;
 
 public class Showroom {
     public String merk, tipe;

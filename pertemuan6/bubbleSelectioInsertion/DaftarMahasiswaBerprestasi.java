@@ -1,4 +1,4 @@
-package jobsheet6.bubbleSelectioInsertion;
+package pertemuan6.bubbleSelectioInsertion;
 
 public class DaftarMahasiswaBerprestasi {
     Mahasiswa listMhs[] = new Mahasiswa[5];
