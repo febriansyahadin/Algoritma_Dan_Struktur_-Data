@@ -49,14 +49,28 @@ public class pencarianBuku11 {
             System.out.println("Data " + x + " tidak ditemukan");
         }
     }
-
+    
+    public Buku11 FindBuku(int cari) {
+        int posisi = -1;
+        for(int j=0; j< listBk.length; j++){
+            if (listBk[j] != null && listBk[j].kodeBuku == cari ){
+                posisi = j;
+                break;
+            }
+        }
+        if (posisi != -1) {
+            return listBk[posisi];
+        } else {
+            return null;
+        }
+    }
     public int FindBinarySearch(int cari, int left, int right){
         int mid;
         if(right >= left){
             mid = (right + left) / 2;
             if (cari == listBk[mid].kodeBuku) {
                 return (mid);
-            }else if (cari < listBk[mid].kodeBuku) {
+            }else if (cari > listBk[mid].kodeBuku) {
                 return FindBinarySearch(cari, left, mid - 1);
             }else{
                 return FindBinarySearch(cari, mid + 1, right);

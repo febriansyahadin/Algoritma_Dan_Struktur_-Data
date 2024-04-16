@@ -50,5 +50,7 @@ public class BukuMain11 {
         posisi = data.FindBinarySearch(cari, 0, jumBuku -1);
         data.tampilPosisi(cari, posisi);
         data.tampilData(cari, posisi);
+        Buku11 dataBuku = data.FindBuku(cari);
+        dataBuku.tampilDataBuku();
     }
 }

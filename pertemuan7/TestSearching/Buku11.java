@@ -22,4 +22,5 @@ public class Buku11 {
         System.out.println("pengarang :"+pengarang);
         System.out.println("Stock :"+stock);
     }
+    
 }
