@@ -58,13 +58,34 @@ Hasil Running Program:
 ## 6.5 Latihan Praktikum
 1. Modifikasi percobaan searching diatas dengan ketentuan berikut ini
 - Ubah tipe data dari kode Buku yang awalnya int menjadi String
+
+<img src= "image-13.png">
+
 - Tambahkan method untuk pencarian kode Buku (bertipe data String) dengan menggunakan 
 sequential search dan binary search.
+
+<img src = "image-14.png">
+
 2. Modifikasi percobaan searching diatas dengan ketentuan berikut ini
 - Tambahkan method pencarian judul buku menggunakan sequential search dan binary 
 search. Sebelum dilakukan searching dengan binary search data harus dilakukan pengurutan 
 dengan menggunakan algoritma Sorting (bebas pilih algoritma sorting apapun)! Sehingga 
 ketika input data acak, maka algoritma searching akan tetap berjalan
+
+<img src="image-15.png">
+
 - Buat aturan untuk mendeteksi hasil pencarian judul buku yang lebih dari 1 hasil dalam 
 bentuk kalimat peringatan! Pastikan algoritma yang diterapkan sesuai dengan kasus yang 
 diberikan!
+
+pencarian buku
+
+<img src="image-16.png">
+
+<img src="image-17.png">
+
+<img src="image-18.png>
+
+bukumain
+
+<img src="image-19.png">
