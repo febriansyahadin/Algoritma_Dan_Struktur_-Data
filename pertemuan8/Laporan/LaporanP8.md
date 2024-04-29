@@ -1,4 +1,4 @@
-## Laporan Praktikum jobsheet 7
+## Laporan Praktikum jobsheet 8
 
 ## 2.1 Percobaan 1: Penyimpanan Tumpukan Barang dalam Gudang
 
