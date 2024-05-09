@@ -1,11 +1,11 @@
 package pertemuan10.praktikum2;
 
 public class queue {
-    Nasabah[] data;
-        int front;
-        int rear;
-        int size;
-        int max;
+    private Nasabah[] data;
+    private int front;
+    private int rear;
+    private int size;
+    private int max;
 
     public queue(int n) {
         max = n;
@@ -15,19 +15,13 @@ public class queue {
     }
 
     public boolean isEmpty() {
-        if (size == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return size == 0;
     }
+
     public boolean isFull() {
-        if (size == max) {
-            return true;
-        } else {
-            return false;
-        }
+        return size == max;
     }
+
     public void peek() {
         if (!isEmpty()) {
             System.out.println("Elemen terdepan: " + data[front].norek + " " + data[front].nama + " " + data[front].alamat + " " + data[front].umur + " " + data[front].saldo);
@@ -35,6 +29,7 @@ public class queue {
             System.out.println("Queue masih kosong");
         }
     }
+
     public void print() {
         if (isEmpty()) {
             System.out.println("Queue masih kosong");
@@ -51,6 +46,7 @@ public class queue {
             System.out.println("\nJumlah elemen = " + size);
         }
     }
+
     public void clear() {
         if (!isEmpty()) {
             front = rear = -1;
@@ -60,7 +56,16 @@ public class queue {
             System.out.println("Queue masih kosong");
         }
     }
-    public void Enqueue(Nasabah dt) {
+
+    public void peekRear() {
+        if (!isEmpty()) {
+            System.out.println("Elemen terbelakang: " + data[rear].norek + " " + data[rear].nama + " " + data[rear].alamat + " " + data[rear].umur + " " + data[rear].saldo);
+        } else {
+            System.out.println("Queue masih kosong");
+        }
+    }
+
+    public void enqueue(Nasabah dt) {
         if (isFull()) {
             System.out.println("Queue sudah penuh");
         } else {
@@ -77,7 +82,8 @@ public class queue {
             size++;
         }
     }
-    public Nasabah Dequeue() {
+
+    public Nasabah dequeue() {
         Nasabah dt = new Nasabah();
         if (isEmpty()) {
             System.out.println("Queue masih kosong");
@@ -85,7 +91,7 @@ public class queue {
             dt = data[front];
             size--;
             if (isEmpty()) {
-                front = rear = - 1;
+                front = rear = -1;
             } else {
                 if (front == max - 1) {
                     front = 0;
