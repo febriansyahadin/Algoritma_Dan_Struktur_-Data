@@ -12,3 +12,12 @@ variable temp digunakan sebagai node sementara untuk melakukan operasi pada seti
 <img src ="image-1.png">
 jadi, baris kode if (temp.next.next == null) { tail = temp.next; } bertanggung jawab untuk mempertahankan referensi tail ketika sebuah node baru dimasukkan di akhir linked list. Kode ini memastikan bahwa referensi tail selalu menunjuk ke node terakhir, sehingga memungkinkan operasi yang efisien yang melibatkan akhir dari linked list.
 
+## 2.2 Modifikasi Elemen pada Single Linked List
+
+## 2.2.2 Verifikasi Hasil Percobaan
+<img src ="image-2.png">
+
+## 2.2.3 Pertanyaan
+1. Mengapa digunakan keyword break pada fungsi remove? Jelaskan!
+2. Jelaskan kegunaan kode dibawah pada method remove
+<img src = "image-3.png">
