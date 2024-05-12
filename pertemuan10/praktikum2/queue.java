@@ -1,11 +1,11 @@
 package pertemuan10.praktikum2;
 
 public class queue {
-    private Nasabah[] data;
-    private int front;
-    private int rear;
-    private int size;
-    private int max;
+    Nasabah[] data;
+    int front;
+    int rear;
+    int size;
+    int max;
 
     public queue(int n) {
         max = n;
