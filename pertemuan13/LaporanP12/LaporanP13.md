@@ -14,8 +14,7 @@
 3. Perhatikan konstruktor pada class DoubleLinkedLists. Apa kegunaan inisialisasi atribut head dan size seperti pada gambar berikut ini?
 
 ![alt text](image.png)
-
-    nilai awal dari head dan size dan belum di isi
+nilai awal dari head dan size belum di isi
 
 4. Pada method addFirst(), kenapa dalam pembuatan object dari konstruktor class Node prev dianggap sama dengan null? 
 Node newNode = new Node(null, item, head);
