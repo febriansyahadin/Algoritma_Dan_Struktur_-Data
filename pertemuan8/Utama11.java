@@ -81,6 +81,9 @@ public class Utama11 {
                 default:
                     System.out.println("Pilihan tidak valid. Silahkan coba lagi");
             }
+        scanint.close();
+        scanstr.close();
         }
     }
+    
 }

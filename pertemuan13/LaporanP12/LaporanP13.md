@@ -99,3 +99,27 @@ Hapus Data
 ![alt text](image-11.png)
 
 2. Buatlah program daftar film yang terdiri dari id, judul dan rating menggunakan double linked lists, bentuk program memiliki fitur pencarian melalui ID Film dan pengurutan Rating secara descending. Class Film wajib diimplementasikan dalam soal ini.
+
+tambah data awal
+
+![alt text](image-12.png)
+
+tambah data posisi akhir
+
+![alt text](image-13.png)
+
+tambah data pada indek tertentu
+
+![alt text](image-14.png)
+
+cetak
+
+![alt text](image-15.png)
+
+cari film
+
+![alt text](image-16.png)
+
+urutan data rating secara descending
+
+![alt text](image-17.png)
