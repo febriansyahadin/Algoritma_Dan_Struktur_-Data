@@ -1,4 +1,4 @@
-    package Quis2;
+    package Kuis2;
 
     public class dllVoli {
         node head;
